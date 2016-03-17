@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.03.2016, 1:26:53
+    Author     : Murdecai
+*/
+
+.combo-box
+ {
+  -fx-background-color: transparent;
+ }
+ 
+ .arrow-button{
+     -fx-background-color: transparent;
+ }
+ 
+.combo-box-popup .list-view
+ {
+   -fx-background-color: -fx-box-border, -fx-control-inner-background;
+   -fx-background-insets: 0, 1;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+ }
+.combo-box-popup .list-view .list-cell
+ {
+-fx-background-color: transparent;
+ }
